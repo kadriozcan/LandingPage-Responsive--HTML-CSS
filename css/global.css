@@ -1,0 +1,74 @@
+/* Text */
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+/* Buttons */
+.btn {
+    margin-top: 1.5rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7%;
+    letter-spacing: 1.5px;
+}
+.btn-block {
+    width: 100%;
+}
+.btn-primary {
+    background: #336ea2;
+}
+.btn-primary:hover {
+    color: #336ea2;
+    background: white;
+    border: #336ea2 1px solid;
+}
+.btn-dark {
+    background: #333;
+}
+.btn-dark:hover {
+    color: #333;
+    background: white;
+    border: #333 1px solid;
+}
+
+/* Colors */
+
+.bg-dark-blue {
+    background: #062e51;
+}
+.bg-light-blue {
+    background: #336ea2;
+}
+
+/* Forms */
+.form-gorup {
+    padding: 0.25rem 0;
+}
+.form-group label {
+    display: block;
+}
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 3%;
+}
+
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}

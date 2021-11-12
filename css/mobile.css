@@ -1,0 +1,19 @@
+#navbar {
+    flex-direction: column;
+    height: 90px;
+    padding-bottom: 00.75rem;
+    padding-top: 00.75rem;
+    overflow: hidden;
+}
+
+#training .items {
+    flex-direction: column;
+
+}
+#training .items .item {
+    width: 100%;
+}
+
+.courses .course {
+    flex-direction: column;
+}

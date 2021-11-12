@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadri Ozcan | Web Developer</title>
+    <meta name="keywords" content="Web Development, Html, Css, Javascript">
+    <meta name="description" content="Kadri Ozcan | Web Developer">
+
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!--Tablet-->
+    <link rel="stylesheet" media="(max-width: 768px)" href="./css/tablet.css">
+    <!--Mobile-->
+    <link rel="stylesheet" media="(max-width: 500px)" href="./css/mobile.css">
+</head>
+
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Kadri Ozcan</h1>
+                <ul>
+                    <li><a href="home">Anasayfa</a></li>
+                    <li><a href="training">Egitimler</a></li>
+                    <li><a href="courses">Kurslar</a></li>
+                    <li><a href="contact">Iletisim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <img src="./images/pexels-daniel-nettesheim-1162361.jpg" alt="foto">
+        <div class="name text-center">
+            <h2 class="heading-big">Kadri Ozcan</h2>
+            <p>Computer Engineer | Software Developer</p>
+            <a class="btn btn-dark" href="#courses">Kurslara Git</a>
+        </div>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-big">Egitimler</h3>
+
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Sinif Ici Egitimler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eos quae dolores sed similique
+                    eligendi.</p>
+            </article>
+
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online Egitimler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eos quae dolores sed similique
+                    eligendi.</p>
+            </article>
+
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Toplantilar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eos quae dolores sed similique
+                    eligendi.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h3 class="text-center heading-big">Kurslar</h3>
+
+        <div class="container">
+            <div class="courses">
+                <!--Course1-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./images/indir.jpg" alt="Python">
+                        <span>%90 indirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Komple Python Kursu</div>
+                        <div class="description">Sifirdan Python Egitimi</div>
+                        <div class="rating">4.5</div>
+
+                    </div>
+                </div>
+
+                <!--Course2-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./images/java-eps-vector-logo.png" alt="Python">
+                        <span>%90 indirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Komple Java Kursu</div>
+                        <div class="description">Sifirdan Java Egitimi</div>
+                        <div class="rating">4.8</div>
+
+                    </div>
+                </div>
+
+                <!--Course3-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./images/2048px-Unofficial_JavaScript_logo_2.svg.png" alt="Python">
+                        <span>%90 indirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Komple Javascript Kursu</div>
+                        <div class="description">Sifirdan Javascript Egitimi</div>
+
+                        <div class="rating">4.7</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+
+        <div class="contact-form">
+            <form>
+                <h4 class="heading-medium text-center">Bana Ulasin</h4>
+
+                <div class="form-group">
+                    <label for="name">Isim</label>
+                    <input 
+                    type="text" 
+                    name="name" 
+                    id="name" 
+                    class="form-control"
+                    placeholder="Isminizi Giriniz">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input 
+                    type="text" 
+                    name="email" 
+                    id="email" 
+                    class="form-control"
+                    placeholder="E-mailinizi Giriniz">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea class="form-control"
+                    name="message" id="message" cols="50" rows="5" placeholder="Mesajinizi Giriniz"></textarea>
+                </div>
+
+                <button 
+                class="btn btn-block" 
+                type="submit">Gonder</button>
+            </form>
+
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
